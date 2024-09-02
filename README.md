@@ -1,14 +1,16 @@
 # Tailwind theme config
 
-Opinionated Tailwind theme configuration
+Opinionated Tailwind theme configuration.
 
 ## Getting started
+
+### Installation
 
 ```bash
 npm install --save-dev @nattui/tailwind-theme-config
 ```
 
-## Usage
+### Usage
 
 ```typescript
 // tailwind.config.ts
@@ -31,4 +33,20 @@ const config: Config = {
 }
 
 export default config
+```
+
+```css
+/* apps/styles/global.css */
+
+html {
+  font-size: 10px;
+}
+```
+
+```json
+// .vscode/settings.json
+
+{
+  "tailwindCSS.rootFontSize": 10
+}
 ```
