@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/strict",
+    "plugin:@typescript-eslint/stylistic",
+    "plugin:perfectionist/recommended-natural-legacy",
+    "plugin:unicorn/all",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "rules": {
+    "perfectionist/sort-imports": "off",
+    "semi": "off"
+  }
+}

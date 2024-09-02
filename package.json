@@ -1,0 +1,49 @@
+{
+  "name": "@nattui/tailwind-theme-config",
+  "version": "0.0.1-alpha.0",
+  "description": "Opinionated Tailwind theme configuration",
+  "keywords": [
+    "tailwind"
+  ],
+  "homepage": "https://github.com/nattui/tailwind-theme-config",
+  "bugs": {
+    "url": "https://github.com/nattui/tailwind-theme-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattui/tailwind-theme-config.git"
+  },
+  "license": "MIT",
+  "author": "Natt Nguyen <hello@natt.sh> (https://natt.sh)",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "sort": "pnpx sort-package-json",
+    "update": "pnpx npm-check-updates -u"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/react": "^18.3.3",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-perfectionist": "^3.2.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-css-order": "^2.1.2",
+    "prettier-plugin-organize-imports": "^4.0.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "bundler"
+  }
+}
