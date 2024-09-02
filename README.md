@@ -11,6 +11,8 @@ npm install --save-dev @nattui/tailwind-theme-config
 ## Usage
 
 ```typescript
+// tailwind.config.ts
+
 import {
   colors,
   fontFamily,
