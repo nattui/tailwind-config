@@ -13,6 +13,7 @@ npm install --save-dev @nattui/tailwind-theme-config
 ```typescript
 import {
   colors,
+  fontFamily,
   fontSize10 as fontSize,
   spacing10 as spacing,
 } from "@nattui/tailwind-theme-config"
@@ -21,6 +22,7 @@ import type { Config } from "tailwindcss"
 const config: Config = {
   theme: {
     colors,
+    fontFamily,
     fontSize,
     spacing,
   },

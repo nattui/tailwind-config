@@ -1,5 +1,4 @@
-import { colors } from "./colors"
-import { fontSize10 } from "./font-size"
-import { spacing10 } from "./spacing"
-
-export { colors, fontSize10, spacing10 }
+export { colors } from "./colors"
+export { fontFamily } from "./font-family"
+export { fontSize10 } from "./font-size"
+export { spacing10 } from "./spacing"
