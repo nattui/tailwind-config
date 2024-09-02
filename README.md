@@ -24,6 +24,7 @@ import {
 import type { Config } from "tailwindcss"
 
 const config: Config = {
+  darkMode: "class",
   theme: {
     colors,
     fontFamily,
