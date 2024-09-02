@@ -31,6 +31,10 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "sort": "pnpx sort-package-json",
     "update": "pnpx npm-check-updates -u"
   },
@@ -41,6 +45,7 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-perfectionist": "^3.2.0",
+    "eslint-plugin-unicorn": "^55.0.0",
     "prettier": "^3.3.3",
     "prettier-plugin-css-order": "^2.1.2",
     "prettier-plugin-organize-imports": "^4.0.0",

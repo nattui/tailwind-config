@@ -1,7 +1,6 @@
 {
   "extends": [
     "eslint:recommended",
-    "next/core-web-vitals",
     "plugin:@typescript-eslint/strict",
     "plugin:@typescript-eslint/stylistic",
     "plugin:perfectionist/recommended-natural-legacy",
