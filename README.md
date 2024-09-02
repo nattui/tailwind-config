@@ -5,7 +5,7 @@ Opinionated Tailwind theme configuration
 ## Getting started
 
 ```bash
-npm install @nattui/tailwind-theme-config
+npm install --save-dev @nattui/tailwind-theme-config
 ```
 
 ## Usage
