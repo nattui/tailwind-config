@@ -5,11 +5,11 @@
 
 // Override to use max width
 export const screens = {
-  "2xl": { max: "1440px" },
-  "2xs": { max: "320px" },
-  lg: { max: "1024px" },
-  md: { max: "768px" },
-  sm: { max: "640px" },
-  xl: { max: "1280px" },
-  xs: { max: "480px" },
+  "320": { max: "320px" },
+  "480": { max: "480px" },
+  "640": { max: "640px" },
+  "768": { max: "768px" },
+  "1024": { max: "1024px" },
+  "1280": { max: "1280px" },
+  "1440": { max: "1440px" },
 }

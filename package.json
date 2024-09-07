@@ -1,6 +1,6 @@
 {
   "name": "@nattui/tailwind-theme-config",
-  "version": "0.0.1-alpha.5",
+  "version": "0.0.1-alpha.6",
   "description": "Opinionated Tailwind theme configuration",
   "keywords": [
     "tailwind"
