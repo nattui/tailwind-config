@@ -15,6 +15,41 @@ npm install --save-dev @nattui/tailwind-theme-config
 ```typescript
 // tailwind.config.ts
 
+// Root font size 16px (default)
+import {
+  borderRadius,
+  colors,
+  fontFamily,
+  fontSize,
+  screens,
+  spacing,
+} from "@nattui/tailwind-theme-config"
+import type { Config } from "tailwindcss"
+
+const config: Config = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    borderRadius,
+    colors,
+    fontFamily,
+    fontSize,
+    screens,
+    spacing,
+  },
+}
+
+export default config
+```
+
+```typescript
+// tailwind.config.ts
+
+// Root font size 10px
 import {
   borderRadius10 as borderRadius,
   colors,
@@ -44,6 +79,8 @@ const config: Config = {
 
 export default config
 ```
+
+### Root font size 10px
 
 ```css
 /* apps/styles/global.css */
