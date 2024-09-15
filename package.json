@@ -30,6 +30,8 @@
   ],
   "scripts": {
     "build": "tsup",
+    "check": "eslint . && prettier --check .",
+    "check:fix": "eslint --fix . && prettier --write .",
     "dev": "tsup --watch",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
