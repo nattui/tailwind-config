@@ -3,7 +3,7 @@
 // Last updated: 2024.09.14
 // ========================================================================== /
 
-// Override for root font size of 16px
+// Override for root font size of 16px (1rem = 16px)
 export const spacing = {
   "0": "0rem",
   "1": "0.0625rem",
@@ -42,7 +42,7 @@ export const spacing = {
   "384": "24rem",
 }
 
-// Override for root font size of 10px
+// Override for root font size of 10px (1rem = 10px)
 export const spacing10 = {
   "0": "0rem",
   "1": "0.1rem",

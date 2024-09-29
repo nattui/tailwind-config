@@ -3,7 +3,7 @@
 // Last updated: 2024.09.14
 // ========================================================================== /
 
-// Override for root font size of 16px
+// Override for root font size of 16px (1rem = 16px)
 export const borderRadius = {
   "0": "0rem",
   "2": "0.125rem",
@@ -16,7 +16,7 @@ export const borderRadius = {
   full: "9999px",
 }
 
-// Override for root font size of 10px
+// Override for root font size of 10px (1rem = 10px)
 export const borderRadius10 = {
   "0": "0rem",
   "2": "0.2rem",

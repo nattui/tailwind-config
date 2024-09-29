@@ -3,7 +3,7 @@
 // Last updated: 2024.09.14
 // ========================================================================== /
 
-// Override to disable relative line height and root font size of 16px
+// Override to disable relative line height and root font size of 16px (1rem = 16px)
 export const fontSize = {
   "12": "0.75rem",
   "14": "0.875rem",
@@ -20,7 +20,7 @@ export const fontSize = {
   "128": "8rem",
 }
 
-// Override to disable relative line height and root font size of 10px
+// Override to disable relative line height and root font size of 10px (1rem = 10px)
 export const fontSize10 = {
   "12": "1.2rem",
   "14": "1.4rem",
